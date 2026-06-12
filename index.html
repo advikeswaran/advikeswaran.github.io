@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advik Eswaran</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-name" href="#top">Advik Eswaran</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="Eswaran_CV.pdf" target="_blank">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Advik Eswaran</h1>
+        <p class="hero-tagline">Geosciences · Princeton University</p>
+        <p class="hero-bio">
+          I am a rising senior at Princeton University studying geosciences,
+          working at the intersection of paleoclimatology, glaciology, and data
+          assimilation. My research focuses on reconstructing Antarctic climate
+          history, identifying ice core drilling sites, and understanding the continent's contribution to past and
+          future sea level change.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:advike@princeton.edu">advike@princeton.edu</a>
+          <a href="https://scholar.google.com/citations?user=rZpx4eEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          <a href="https://github.com/advikeswaran" target="_blank">GitHub</a>
+          <a href="Eswaran_CV.pdf" target="_blank">CV</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-placeholder">
+          <span>Photo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I am a student at Princeton University studying geosciences, conducting research with
+        Dr. T.J. Fudge
+        at the University of Washington and Dr. Olivia Truax at the University of Canterbury.
+        My work uses data assimilation methodologies, combining ice core proxy records with
+        climate model simulations, to reconstruct 19th- and 20th-century Antarctic snow accumulation
+        and quantify the continent's contribution to global mean sea level. I have also applied this
+        framework to identify optimal shallow ice core drilling locations across Antarctica.
+      </p>
+
+      <div class="info-grid">
+        <div>
+          <h3>Interests</h3>
+          <ul>
+            <li>Antarctic paleoclimate</li>
+            <li>Ice core science</li>
+            <li>Data assimilation</li>
+            <li>Climate modeling</li>
+            <li>Ice sheet modeling</li>
+            <li>Deep learning</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <ul class="edu-list">
+            <li>
+              <strong>A.B. Geosciences</strong> <span class="muted">(Specialization in Geophysics)</span><br />
+              Princeton University<br />
+              <span class="muted">Minors: Applied &amp; Computational Mathematics, Computer Science</span><br />
+              <span class="muted">Expected June 2027</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="alt-bg">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="research-grid">
+
+        <div class="research-card">
+          <h3>Antarctic Climate Reconstruction &amp; Ice Core Site Selection</h3>
+          <p>
+            I applied an Ensemble Kalman Filter methodology for Antarctic climate reconstruction,
+            combining ice core proxy records with climate model simulations to reconstruct 19th- and
+            20th-century snow accumulation fields and sea level contribution. Building on this framework,
+            I applied an optimal sensor technique (the first application of this method to
+            Antarctic ice core site selection) to identify high-value shallow drilling locations,
+            including case studies at Crary Ice Rise, Lyddan Ice Rise, and the ITASE cores in West Antarctica.
+          </p>
+          <a class="card-link" href="https://github.com/advikeswaran/metric-reconstruction" target="_blank">GitHub (reconstruction) →</a>
+          <a class="card-link" href="https://github.com/advikeswaran/optimal-sensor" target="_blank">GitHub (optimal sensor) →</a>
+        </div>
+
+        <div class="research-card">
+          <h3>Oldest Ice Exploration — Ice Sheet Modeling</h3>
+          <p>
+            I developed a method to reconstruct time-varying climate forcing inputs to the Community Ice Sheet
+            Model using existing ice core records, with the ultimate goal of running simulations on
+            multi-millennial timescales to identify optimal drilling locations for recovering the oldest Antarctic ice.
+          </p>
+          <a class="card-link" href="https://github.com/advikeswaran/cism-modeling" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="research-card">
+          <h3>Graph Neural Networks for Climate Reconstruction</h3>
+          <p>
+            I am developing a graph neural network-based methodology for reconstructing Antarctic climate
+            as an alternative to existing data assimilation approaches. By leveraging innovative approaches in artificial intelligence and machine learning, this method aims to capture complex spatial
+            relationships across the Antarctic continent that traditional methodologies may not fully exploit.
+          </p>
+          <a class="card-link" href="https://github.com/advikeswaran/gnn-recon" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="research-card">
+          <h3>Radar-Based Antarctic Snow Accumulation Reconstruction</h3>
+          <p>
+            In Summer 2025 at the National Centre for Atmospheric Science in Leeds, United Kingdom, I produced 2D spatial
+            reconstructions of Antarctic snow accumulation using atmospheric radar profiles, and developed
+            a process-based snowfall retrieval scheme from a scanning Doppler radar at Troll Station, Antarctica.
+          </p>
+          <a class="card-link" href="https://github.com/Troll-Observing-Network/neumayer-snowfall" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="research-card">
+          <h3>Field Glaciology - Juneau Icefield Research Program</h3>
+          <p>
+            As a participant in the 2024 Juneau Icefield Research Program, I contributed to multiple
+            field projects: drilling and processing three ~15 m ice cores for water isotope analysis,
+            and installing a TRI radar station to monitor supraglacial hydrology.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="container">
+      <h2>Publications</h2>
+      <p class="section-note">
+        See also my <a href="https://scholar.google.com/citations?user=rZpx4eEAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
+      </p>
+
+      <h3 class="pub-category">Peer-Reviewed Articles</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-authors">Eswaran, A., Truax, O.J., MacDonell, S., Matsuoka, K., Neff, P.D., Steig, E.J., Winton, V.H.L., &amp; Fudge, T.J.</span> (2026).
+          Data-Driven Optimization of Antarctic Shallow Ice Core Site Selection.
+          <em>Journal of Glaciology</em>.
+          <span class="under-review">Under Review</span>
+        </li>
+        <li>
+          <span class="pub-authors">Eswaran, A., Truax, O.J., &amp; Fudge, T.J.</span> (2024).
+          20th-Century Antarctic Sea Level Mitigation Driven by Uncertain East Antarctic Accumulation History.
+          <em>Geophysical Research Letters</em>, 51, e2023GL106991.
+          <a href="https://doi.org/10.1029/2023GL106991" target="_blank">doi:10.1029/2023GL106991</a>
+        </li>
+      </ol>
+
+      <h3 class="pub-category">Conference Presentations</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-authors">Eswaran, A.</span>, Truax, O., &amp; Fudge, T.J. (2025).
+          Optimal Sensor Analysis for Antarctic Ice Core Site Identification.
+          <em>4th US Ice Core Community Meeting</em>, Minneapolis, MN.
+          <span class="pres-type">Oral</span>
+        </li>
+        <li>
+          Fudge, T.J., <span class="pub-authors">Eswaran, A.</span>, &amp; Truax, O. (2024).
+          Optimal Sensor Analysis for Identification of Antarctic Ice Core Sites.
+          <em>AGU Fall Meeting</em>, Washington, DC.
+          <span class="pres-type">Poster</span>
+        </li>
+        <li>
+          Fudge, T.J., <span class="pub-authors">Eswaran, A.</span>, &amp; Truax, O. (2024).
+          Antarctic 20th-Century Sea Level Mitigation Dominated By Uncertainty in 19th-Century East Antarctic Snow Accumulation.
+          <em>EGU General Assembly 2024</em>, Vienna, Austria.
+          <span class="pres-type">Poster</span>
+        </li>
+        <li>
+          <span class="pub-authors">Eswaran, A.</span>, Truax, O., &amp; Fudge, T.J. (2023).
+          Late 20th-century Increase in Antarctic Snow Accumulation Drives Modest Mitigation of Sea Level Rise.
+          <em>AGU Fall Meeting</em>, San Francisco, CA.
+          <span class="pres-type">Poster</span>
+        </li>
+        <li>
+          <span class="pub-authors">Eswaran, A.</span>, Truax, O., &amp; Fudge, T.J. (2023).
+          Late 20th-century Increase in Antarctic Snow Accumulation Drives Modest Mitigation of Sea Level Rise.
+          <em>Northwest Glaciologists Meeting</em>, Seattle, WA.
+          <span class="pres-type">Oral</span>
+        </li>
+        <li>
+          <span class="pub-authors">Eswaran, A.</span> &amp; Fudge, T.J. (2023).
+          Reconstructing Antarctic Accumulation With Data Assimilation.
+          <em>2nd US Ice Core Community Meeting</em>, Seattle, WA.
+          <span class="pres-type">Poster</span>
+        </li>
+        <li>
+          <span class="pub-authors">Eswaran, A.</span> &amp; Fudge, T.J. (2022).
+          Antarctic Ice Core Site Identification Using Data Assimilation of Synthetic Proxy Records for
+          Twentieth Century Climate Reconstruction.
+          <em>AGU Fall Meeting</em>, Chicago, IL.
+          <span class="pres-type">Poster</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>
+        Advik Eswaran &nbsp;·&nbsp;
+        <a href="mailto:advike@princeton.edu">advike@princeton.edu</a> &nbsp;·&nbsp;
+        Princeton University, Department of Geosciences
+      </p>
+      <p class="muted" style="font-size:0.8rem; margin-top:0.4rem;">
+        Last updated June 2026
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
